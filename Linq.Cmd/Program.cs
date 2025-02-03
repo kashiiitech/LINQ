@@ -10,4 +10,5 @@ using Linq.Cmd._5_PartialResults;
 //new GetSingleItem().Run();
 //new ProjectingResults().Run();
 //new ChunkedResult().Run();
-new SkipAndTake().Run();
+//new SkipAndTake().Run();
+new GroupedResults().Run();
