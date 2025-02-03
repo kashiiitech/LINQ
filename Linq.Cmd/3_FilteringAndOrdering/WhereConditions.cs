@@ -9,7 +9,9 @@ public class WhereConditions : QueryRunner
         //SingleCondition_Q();
         //SingleCondition_F();
         //SingleFunctionCondition_Q();
-        SingleFunctionCondition_F();
+        //SingleFunctionCondition_F();
+        //MultipleConditions_Q();
+        MultiplesConditions_F();
     }
 
     /// <summary>
@@ -86,6 +88,14 @@ public class WhereConditions : QueryRunner
     private void MultipleConditions_Q()
     {
         var sourceMovies = Repository.GetAllMovies();
+
+        var result =
+            from movie in sourceMovies
+            where movie.Name.Contains("Spider-Man")
+            where movie.ReleaseDate.Year < 2020
+            select movie;
+
+        PrintAll(result);
     }
     
     /// <summary>
@@ -94,5 +104,12 @@ public class WhereConditions : QueryRunner
     private void MultiplesConditions_F()
     {
         var sourceMovies = Repository.GetAllMovies();
+
+        var result = sourceMovies
+            .Where(movie => movie.Name.Contains("Iron Man"))
+            .Where(movie => movie.ReleaseDate.Year <= 2010);
+
+        PrintAll(result);
+
     }
 }
