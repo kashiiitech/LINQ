@@ -2,7 +2,7 @@ using System.Xml;
 using Linq.Data.Models;
 using Microsoft.Data.SqlClient;
 
-namespace Dometrain.Linq.Cmd._2_Introduction;
+namespace Linq.Cmd._2_Introduction;
 
 public class NonLinqCodeSamples
 {
