@@ -11,9 +11,9 @@ public class Ordering : QueryRunner
         //SingleOrderByDescending_Q();
         //SingleOrderBy_F();
         //SingleOrderByDescending_F();
-        // MultipleOrderBy_Q();
-        // MultipleOrderBy_F();
-        //OrderByCustomComparer_F();
+        //MultipleOrderBy_Q();
+        //MultipleOrderBy_F();
+        OrderByCustomComparer_F();
     }
 
     /// <summary>
