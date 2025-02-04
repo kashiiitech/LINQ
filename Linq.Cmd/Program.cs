@@ -5,7 +5,7 @@ using Linq.Cmd._4_OutputFromQueries;
 using Linq.Cmd._4_OutputFromQueries;
 using Linq.Cmd._5_PartialResults;
 using Linq.Cmd._5_PartialResults;
-using Linq.Cmd._6_ChekingContents;
+using Linq.Cmd._6_CheckingContents;
 
 //new DeferredExecution().Run();
 //new GetSingleItem().Run();
@@ -13,4 +13,5 @@ using Linq.Cmd._6_ChekingContents;
 //new ChunkedResult().Run();
 //new SkipAndTake().Run();
 //new GroupedResults().Run();
-new RemoveDuplicates().Run();
+//new RemoveDuplicates().Run();
+new CheckingForSingleItem().Run();
