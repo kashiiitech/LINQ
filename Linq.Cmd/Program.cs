@@ -6,6 +6,7 @@ using Linq.Cmd._4_OutputFromQueries;
 using Linq.Cmd._5_PartialResults;
 using Linq.Cmd._5_PartialResults;
 using Linq.Cmd._6_CheckingContents;
+using Linq.Cmd._7_CombiningResults;
 
 //new DeferredExecution().Run();
 //new GetSingleItem().Run();
@@ -17,4 +18,5 @@ using Linq.Cmd._6_CheckingContents;
 //new CheckingForSingleItem().Run();
 //new FindMatches().Run();
 //new AggregateFunctions().Run();
-new CompareSequences().Run();
+//new CompareSequences().Run();
+new AppendSequences().Run();
