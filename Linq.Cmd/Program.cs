@@ -15,4 +15,5 @@ using Linq.Cmd._6_CheckingContents;
 //new GroupedResults().Run();
 //new RemoveDuplicates().Run();
 //new CheckingForSingleItem().Run();
-new FindMatches().Run();
+//new FindMatches().Run();
+new AggregateFunctions().Run();
