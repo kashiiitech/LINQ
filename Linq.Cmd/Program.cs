@@ -23,4 +23,5 @@ using Linq.Cmd._8_HowLinqWorks;
 //new AppendSequences().Run();
 //new JoinCollectionsFromResults().Run();
 //new JoiningData().Run();
-new EnumerableExample().Run();
+//new EnumerableExample().Run();
+new QueryableExample().Run();
