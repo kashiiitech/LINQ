@@ -19,4 +19,5 @@ using Linq.Cmd._7_CombiningResults;
 //new FindMatches().Run();
 //new AggregateFunctions().Run();
 //new CompareSequences().Run();
-new AppendSequences().Run();
+//new AppendSequences().Run();
+new JoinCollectionsFromResults().Run();
