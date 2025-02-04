@@ -20,4 +20,5 @@ using Linq.Cmd._7_CombiningResults;
 //new AggregateFunctions().Run();
 //new CompareSequences().Run();
 //new AppendSequences().Run();
-new JoinCollectionsFromResults().Run();
+//new JoinCollectionsFromResults().Run();
+new JoiningData().Run();

@@ -1,5 +1,3 @@
-using Linq.Data.Models;
-
 namespace Linq.Data.Models;
 
 public class Movie
