@@ -7,6 +7,7 @@ using Linq.Cmd._5_PartialResults;
 using Linq.Cmd._5_PartialResults;
 using Linq.Cmd._6_CheckingContents;
 using Linq.Cmd._7_CombiningResults;
+using Linq.Cmd._8_HowLinqWorks;
 
 //new DeferredExecution().Run();
 //new GetSingleItem().Run();
@@ -21,4 +22,5 @@ using Linq.Cmd._7_CombiningResults;
 //new CompareSequences().Run();
 //new AppendSequences().Run();
 //new JoinCollectionsFromResults().Run();
-new JoiningData().Run();
+//new JoiningData().Run();
+new EnumerableExample().Run();
