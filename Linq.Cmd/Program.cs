@@ -16,4 +16,5 @@ using Linq.Cmd._6_CheckingContents;
 //new RemoveDuplicates().Run();
 //new CheckingForSingleItem().Run();
 //new FindMatches().Run();
-new AggregateFunctions().Run();
+//new AggregateFunctions().Run();
+new CompareSequences().Run();
